@@ -13,7 +13,8 @@ while True:
             print("Since you are younger than 18, you only have one option for an account.")
             print("The only account you can have is a debit account.")
             print("A debit account is a bank account that lets you spend money you already have directly from your balance.")
-            SetUpAccount = 1
+            print("If you would like to set one up please press 2")
+            SetUpAccount = '1'
         else:
             print("The three account options we have at Code2CollegeBank are debit (1), credit (2), and savings (3).")
             AccountExplore = input('What account would you like to explore? ')
@@ -87,4 +88,4 @@ while True:
         break  
 
     else:
-        print("That is not a valid choice. Please pick from 1, 2, or 4.")
+        print("That is not a valid choice. Please pick from 1, 2, or 3.")
