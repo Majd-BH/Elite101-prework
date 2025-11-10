@@ -1,6 +1,7 @@
+###This is the Bank chat bot
 print("Welcome to the bank chatbot!")
 name = input("What is your name? ").capitalize()
-age = int(input(f"Hello {name}, how old are you? "))
+age = int(input(f"Hello {name}, how old are you? (type this as an integer). "))
 print(f"Hello {age}-year-old {name}, how can I help you?")
 SetUpAccount = 0
 while True:
